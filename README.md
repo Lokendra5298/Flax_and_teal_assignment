@@ -34,6 +34,40 @@ For Iteration: 9 Value of t = 1.8, y(t) = 1.0838980709302343
 For Iteration: 10 Value of t = 2, y(t) = 1.1233788617581737
 ```
 
+**Q.2**
+# Burger's Equation Solver
+
+This Python script solves Burger's equation using the fourth-order Runge-Kutta (RK4) method with central differences for approximating derivatives.
+
+## Requirements
+- Python 3.x
+- NumPy
+- Matplotlib
+
+## Usage
+1. Clone the repository or download the `burgers_equation_solver.py` file.
+2. Ensure you have Python and the required dependencies installed.
+3. Run the script using the command: `python burgers_equation_solver.py`.
+
+## Description
+- Burger's equation is a fundamental partial differential equation used in fluid dynamics and nonlinear physics. It describes the behavior of a viscous fluid undergoing convection and diffusion.
+- The equation to be solved is: ∂u/∂t + u ∂u/∂x = ν ∂^2u/∂x^2
+- The initial condition for u(x,0) is set as sin(x*pi/L), where 0 <= x <= 2*pi and t > 0.
+- The spatial domain spans from 0 to 2*pi and is discretized into Nx grid points.
+- The time domain spans from 0 to T and is discretized into Nt time steps.
+- The script uses the RK4 method to numerically solve the equation.
+- The solution is plotted at regular time intervals and printed to the console at specified time steps.
+
+## Parameters
+- L: Length of the spatial domain
+- Nx: Number of spatial grid points
+- Nt: Number of time steps
+- nu: Viscosity coefficient
+- T: Total simulation time
+
+## Output
+- The script produces a plot showing the numerical solution of Burger's equation over time.
+
 **License**
 
 This code is provided under the MIT License. Feel free to use and modify it according to your needs.
