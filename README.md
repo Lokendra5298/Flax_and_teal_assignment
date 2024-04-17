@@ -29,6 +29,9 @@ For Iteration: 10 Value of t = 2, y(t) = 1.1233788617581737
 **Q.2**
 # Burger's Equation Solver
 
+## Reference:
+Savović, S., Ivanović, M., & Min, R. (2023). A Comparative Study of the Explicit Finite Difference Method and Physics-Informed Neural Networks for Solving the Burgers’ Equation. Axioms, 12(10), 982.
+
 This Python script solves Burger's equation using the fourth-order Runge-Kutta (RK4) method with central differences for approximating derivatives.
 
 ## Requirements
