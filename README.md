@@ -5,15 +5,7 @@ This code implements the fourth-order Runge-Kutta (RK4) method to solve an ordin
 
 **Usage**
 
-To run the code, you need to have Rust installed on your system. If you haven't installed Rust yet, you can do so by following the instructions on the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-
-Once Rust is installed, you can create a new Rust project and place the provided code in the `main.rs` file. Then, navigate to the project directory in your terminal and execute the following command to compile and run the code:
-
-```bash
-cargo run
-```
-
-This will compile the code and execute the resulting binary.
+To run the code, one can do so by following the instructions on the official Rust website: https://play.rust-lang.org/?version=stable&mode=debug&edition=2021.
 
 **Code Explanation**
 
@@ -43,11 +35,6 @@ This Python script solves Burger's equation using the fourth-order Runge-Kutta (
 - Python 3.x
 - NumPy
 - Matplotlib
-
-## Usage
-1. Clone the repository or download the `burgers_equation_solver.py` file.
-2. Ensure you have Python and the required dependencies installed.
-3. Run the script using the command: `python burgers_equation_solver.py`.
 
 ## Description
 - Burger's equation is a fundamental partial differential equation used in fluid dynamics and nonlinear physics. It describes the behavior of a viscous fluid undergoing convection and diffusion.
