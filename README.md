@@ -9,7 +9,7 @@ To run the code, one can do so by following the instructions on the official Rus
 
 **Code Explanation**
 
-The `f(t, y)` function represents the differential equation `dy/dt = 1 - t^2 + y`.
+The `f(t, y)` function represents the differential equation `dy/dt = 1 - t^2 + y, 0≤t≤ 2, y(0) = 0.5, with n = 10.
 
 The `main` function initializes parameters such as the step size `h`, time vector `t`, and solution vector `y`. It then performs RK4 iterations to approximate the solution of the ODE. In each iteration, the RK4 method computes four intermediate slopes (`k1`, `k2`, `k3`, `k4`) and uses them to update the solution vector `y`. The final result is printed to the console.
 
